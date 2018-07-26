@@ -89,7 +89,7 @@ info(29, "homme");
 //Faire une fonction qui prend en paramètre trois nombres et qui renvoit la somme de ces nombres.
 //Tous les paramètres doivent avoir une valeur par défaut.
 
-function add($chi1, $chi2, $chi3) {
+function add($chi1 = 2, $chi2 = 4, $chi3 = 6) {
     $result = $chi1 + $chi2 + $chi3;
     echo $result;
 };
