@@ -90,6 +90,8 @@ info(29, "homme");
 //Tous les paramètres doivent avoir une valeur par défaut.
 
 function add($chi1, $chi2, $chi3) {
-    return $chi1 + $chi2 + $chi3;
-}
+    $result = $chi1 + $chi2 + $chi3;
+    echo $result;
+};
+
 echo add(5, 10, 15);
